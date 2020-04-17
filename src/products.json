@@ -1,0 +1,29 @@
+{
+  "products": [
+    {
+      "id": "EG0720",
+      "name": "ultraboost 20 shoes",
+      "available-colors": "SIGNAL CORAL / CORE BLACK / CLOUD WHITE"
+    },
+    {
+      "id": "EE4394",
+      "name": "ultraboost 20 shoes",
+      "available-colors": "DASH GREY / GREY / SOLAR RED"
+    },
+    {
+      "id": "EG0713",
+      "name": "ultraboost 20 shoes",
+      "available-colors": "CLOUD WHITE / CLOUD WHITE / CORE BLACK"
+    },
+    {
+      "id": "EG0718",
+      "name": "ultraboost 20 shoes",
+      "available-colors": "TECH PURPLE / SILVER METALLIC / CLOUD WHITE"
+    },
+    {
+      "id": "FU8498",
+      "name": "ultraboost 20 shoes",
+      "available-colors": "CORE BLACK / CORE BLACK / SOLAR RED"
+    }
+  ]
+}

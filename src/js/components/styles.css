@@ -1,0 +1,161 @@
+body {
+  margin: 0;
+}
+.App {
+  font-family: AdineuePRO, Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.product-detail {
+  display: flex;
+  font-family: AdineuePRO, Helvetica, Arial, sans-serif;
+}
+.pd-col-1 {
+  width: 75%;
+  padding: 1%;
+  height: 530px;
+  background-color: #ebeff1;
+  align-items: flex-center;
+}
+
+.pd-col-2 {
+  flex-direction: column;
+  width: 25%;
+  padding: 2%;
+}
+.piImage {
+  width: 530px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#nav-logo {
+  width: 128px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 5%;
+}
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 100%;
+  height: 100px;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  background-color: black;
+  color: white;
+}
+.nav-bar-links {
+  width: 100%;
+  height: 64px;
+  margin-top: 3%;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+.nav-line-2 {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: stretch;
+}
+ul {
+  width: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+li {
+  display: inline;
+  float: left;
+  padding-left: 5%;
+}
+
+input {
+  height: 32px;
+  line-height: 32px;
+  font-size: 16px;
+}
+.nav-bag {
+  margin-right: 7.5%;
+  margin-left: 2.5%;
+}
+.bag-img {
+  height: 32px;
+}
+.inverted {
+  filter: invert(100%);
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+select {
+  height: 50px;
+  justify-content: space-between;
+  line-height: 20px;
+  margin: 2%;
+  padding: 0 20px;
+  border: 1px solid black;
+  -webkit-border-radius: 0px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none; /* Remove default arrow */
+  background: url(https://cdn4.iconfinder.com/data/icons/basic-user-interface-elements/700/down-bottom-arrow-512.png)
+    no-repeat; /* Add custom arrow */
+  background-size: 14px;
+  background-position: 85% 50%;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+#size-dd {
+  width: 55%;
+}
+
+#qty-dd {
+  width: 30%;
+}
+
+#add-to-bag {
+  text-transform: uppercase;
+  background-color: black;
+  border-color: black;
+  color: white;
+  -webkit-border-radius: 0px;
+  font-size: 14px;
+  font-weight: bold;
+  height: 50px;
+  justify-content: space-between;
+  line-height: 20px;
+  margin: 2%;
+  padding: 0 20px;
+  width: 70%;
+  box-shadow: 2px 2px white, 3px 3px black;
+}
+
+#button-text {
+  display: inline-block;
+  padding-right: 10%;
+}
+#button-right-arrow {
+  padding-left: 30%;
+}
+.like-button {
+  margin: 2%;
+  border: 1px solid black;
+  width: 49px;
+  text-align: center;
+  display: block;
+}
+.like-img {
+  padding: 20%;
+}
