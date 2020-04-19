@@ -7,9 +7,6 @@ const optimization = {
     }
   }
 };
-const entry = {
-  ProductDetail: ["./src/js/components/ProductDetail.component.js"]
-};
 module.exports = {
   output: {
     path: path.resolve(__dirname, "../dist"),
