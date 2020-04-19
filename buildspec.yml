@@ -11,11 +11,12 @@ phases:
     pre-build:
       commands:
         - echo Installing dependencies
-        - npm
+        - npm install
     build:
       commands:
         - echo building...
-        - npm build
+        - npm run webpack
+        - npm run build
     artifacts:
       files:
         - "**/*"
