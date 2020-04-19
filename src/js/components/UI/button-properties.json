@@ -1,0 +1,34 @@
+{
+  "buttonProps": [
+    {
+      "id": "add-to-bag",
+      "type": "addToBag",
+      "text": "Add to Bag",
+      "imgUrl": ""
+    },
+    {
+      "id": "checkout",
+      "type": "checkout",
+      "text": "Checkout",
+      "imgUrl": ""
+    },
+    {
+      "id": "get-started",
+      "type": "getStarted",
+      "text": "Get Started",
+      "imgUrl": ""
+    },
+    {
+      "id": "paypal",
+      "type": "paypal",
+      "text": "",
+      "imgUrl": "https://www.paypalobjects.com/webstatic/mktg/Logo/pp-logo-100px.png"
+    },
+    {
+      "id": "promoCode",
+      "type": "promoCode",
+      "text": "ENTER YOUR PROMO CODE",
+      "imgUrl": ""
+    }
+  ]
+}
