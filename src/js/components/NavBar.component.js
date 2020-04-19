@@ -7,11 +7,8 @@ import { mapStateToProps, getItemCount } from "Helpers/helperFunctions";
 const menuOptions = ["men", "women", "kids", "sports", "brands", "holiday"];
 
 function NavBar(props) {
-  console.log("insidenavbar", props);
   const { availableItems } = props;
   const cartItemCount = getItemCount(availableItems);
-
-  console.log(cartItemCount);
 
   const menuOptionsList = menuOptions.map(option => {
     return (

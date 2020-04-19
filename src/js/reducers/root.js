@@ -12,7 +12,6 @@ const initialState = {
 };
 
 function rootReducer(state = initialState, action) {
-  console.log("@@@@@@action:", action);
   switch (action.type) {
     case SET_PRODUCT_INFO: {
       return {

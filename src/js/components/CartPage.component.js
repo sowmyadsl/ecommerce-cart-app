@@ -22,14 +22,12 @@ class CartPage extends React.Component {
   selectedQtyChange(item, e) {
     const { dispatch } = this.props;
     const selectedQty = parseInt(e.target.value);
-    console.log("selecteQty", selectedQty);
     dispatch(updItemsInCart(item.sku, selectedQty));
   }
 
   render() {
     const { availableItems } = this.props;
     const cartItemCount = getItemCount(availableItems);
-    console.log("####### availableItems", availableItems);
     const totalCartPrice = cartItemCount * 120;
     const plural = cartItemCount > 1 ? "s" : "";
 

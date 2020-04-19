@@ -41,8 +41,6 @@ class SizeQuantitySelection extends React.Component {
     });
   }
   onQtyChange(e) {
-    console.log("on qty change", this.props.availableItems);
-
     this.setState({
       selectedQty: parseInt(e.target.value)
     });
@@ -66,7 +64,6 @@ class SizeQuantitySelection extends React.Component {
   }
 
   render() {
-    console.log("the component is re-rendering after change");
     const { availableItems } = this.props;
     const { availableQty, selectedQty } = this.state;
 

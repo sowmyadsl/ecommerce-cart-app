@@ -32,12 +32,10 @@ export function updItemsInCart(sku, selectedQty) {
 
     const foundIndex = availableItems.findIndex(item => item.sku === sku);
     const selectedItem = availableItems[foundIndex];
-    console.log("inside updItemsInCard", selectedItem);
     const totalQuantity = selectedItem.availability + selectedItem.quantity;
 
     selectedItem.availability = totalQuantity - selectedQty;
     selectedItem.quantity = selectedQty;
-    console.log();
     let modifiedItems = availableItems.map((item, i) => {
       return i === foundIndex ? selectedItem : item;
     });

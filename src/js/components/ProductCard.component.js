@@ -10,7 +10,6 @@ export const onSelectChange = (props, e) => {
 export default function ProductCard(props) {
   const { item, cardDeleteClick, itemQtyChange } = props;
   const itemPrice = item.quantity * 120.0;
-  console.log("inside product card:", item);
   const totalQuantity = item.availability + item.quantity - 5;
 
   let qtyList = [];
