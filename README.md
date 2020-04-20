@@ -43,3 +43,11 @@ $ npm run build (production)
 
 - Add Unit tests and validations
 - Hook Real API to get basket ID once a product gets added in the cart and then use basket ID and authorization to maintain cart functionality.
+
+## License
+
+_This software is licensed under MIT license._
+
+```
+Copyright (c) 2020 Sowmya Dinavahi
+```
