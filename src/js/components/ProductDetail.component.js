@@ -2,7 +2,7 @@ import React from "react";
 import { connect } from "react-redux";
 import MainImage from "./MainImage.component";
 import ProductSummary from "./ProductSummary.component";
-import SizeQuantitySelection from "./SizeQuantitySelection.component";
+import SizeQtyForm from "./SizeQtyForm.component";
 import "./styles.css";
 import {
   getAvailableVariations,
@@ -19,13 +19,7 @@ class ProductDetail extends React.Component {
     const productId = "FV3284";
     const { dispatch, productInfo } = this.props;
     if (productId === productInfo.id) return;
-    const url = "https://www.adidas.com/api/checkout/baskets";
-    fetch(url, { method: "POST" })
-      .then(res => res.json())
-      .then(data => {
-        console.log("data:::: ", data);
-      })
-      .catch(error => console.log(error));
+
     dispatch(getProductInfo(productId));
   }
 
@@ -47,7 +41,7 @@ class ProductDetail extends React.Component {
         </div>
         <div className="pd-col-2">
           <ProductSummary />
-          <SizeQuantitySelection />
+          <SizeQtyForm />
         </div>
       </div>
     );
