@@ -1,8 +1,8 @@
-# ADIDAS CHECKOUT APP
+# Adidas Checkout App
 
 Adidas checkout app is a simple web app that lets customers add a product to the cart. This application demonstrates the core functionality of an e-commerce web shop. Customers can access a product page, select sizes, add items to their cart and check the order summary with total value.
 
-![](public/checkout.gif)
+![Adidas Checkout Cart Demo](src/public/checkout.gif)
 
 # User Stories
 
@@ -42,4 +42,4 @@ $ npm run build (production)
 # Things to do
 
 - Add Unit tests and validations
-- Hook Real API to get basket ID once a product gets added in the cart and then use basket ID and authorization to maintain cart functionality.```
+- Hook Real API to get basket ID once a product gets added in the cart and then use basket ID and authorization to maintain cart functionality.
