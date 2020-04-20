@@ -1,6 +1,6 @@
 # Adidas Checkout App
 
-Adidas checkout app is a simple web app built using that lets customers add a product to the cart. This application demonstrates the core functionality of an e-commerce web shop. Customers can access a product page, select sizes, add items to their cart and check the order summary with total value.
+Adidas checkout app is a simple web app that lets customers add a product to the cart. This application demonstrates the core functionality of an e-commerce web shop. Customers can access a product page, select sizes, add items to their cart and check the order summary with total value.
 
 ![Adidas Checkout Cart Demo](src/public/checkout.gif)
 
