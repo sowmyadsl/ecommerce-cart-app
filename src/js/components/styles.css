@@ -221,7 +221,10 @@ button.disabled {
   width: 49px;
   text-align: center;
   display: block;
+  background: none;
+  border: none;
 }
+
 .del-img {
   padding: 20%;
 }
