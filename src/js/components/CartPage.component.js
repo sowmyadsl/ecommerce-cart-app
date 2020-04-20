@@ -108,8 +108,8 @@ class CartPage extends React.Component {
                 </table>
               </div>
             </div>
-            <div className="promo-code">
-              <Button action="promoCode" status="disabled" />
+            <div className="promo order-summary-panel">
+              <p>ENTER YOUR PROMO CODE</p>
             </div>
           </div>
         </div>
