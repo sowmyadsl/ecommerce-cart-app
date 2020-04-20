@@ -29,7 +29,7 @@ class ProductDetail extends React.Component {
     if (isFetching) {
       return (
         <div>
-          <h1>Loading</h1>
+          <h1>Loading ...</h1>
         </div>
       );
     }
