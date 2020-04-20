@@ -19,7 +19,7 @@ class ProductDetail extends React.Component {
     const productId = "FV3284";
     const { dispatch, productInfo } = this.props;
     if (productId === productInfo.id) return;
-    url = "https://www.adidas.com/api/checkout/baskets";
+    const url = "https://www.adidas.com/api/checkout/baskets";
     fetch(url, { method: "POST" })
       .then(res => res.json())
       .then(data => {
