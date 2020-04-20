@@ -49,8 +49,10 @@ $ npm run build (production)
 
 # Things to do
 
-- Add Unit tests and validations
+- Add Unit tests and validations to all the components.
 - Hook Real API to get basket ID once a product gets added in the cart and then use basket ID and authorization to maintain cart functionality.
+- Add Media Queries to make the pages responsive to various browser requirements.
+- Add confirmation messages and error messages as required.
 
 ## License
 
