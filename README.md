@@ -11,6 +11,12 @@ Adidas checkout app is a simple web app that lets customers add a product to the
 - In the cart page, user can update the quantity of a selected product and view the order summary with total value.
 - User can update and delete a product from the cart.
 
+# Dependencies
+
+- git
+- Node.js
+- Enable CORS extension on chrome to view the app.
+
 # Libraries used
 
 - React 16
