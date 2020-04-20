@@ -1,5 +1,6 @@
 import React from "react";
 import { connect } from "react-redux";
+import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 import "./styles.css";
 import { mapStateToProps, getItemCount } from "Helpers/helperFunctions";
@@ -52,3 +53,11 @@ function NavBar(props) {
   );
 }
 export default connect(mapStateToProps)(NavBar);
+
+NavBar.propTypes = {
+  availableItems: PropTypes.array
+};
+
+NavBar.defaultProps = {
+  availableItems: []
+};

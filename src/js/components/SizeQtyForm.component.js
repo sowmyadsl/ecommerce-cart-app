@@ -88,3 +88,8 @@ function SizeQtyForm(props) {
   );
 }
 export default connect(mapStateToProps)(SizeQtyForm);
+
+SizeQtyForm.propTypes = {
+  availableItems: PropTypes.array.isRequired,
+  dispatch: PropTypes.func.isRequired
+};

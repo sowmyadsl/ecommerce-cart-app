@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import LikeButton from "UI/LikeButton.component";
 import DeleteButton from "UI/DeleteButton.component";
 
@@ -71,3 +72,9 @@ export default function ProductCard(props) {
     </div>
   );
 }
+
+ProductCard.propTypes = {
+  item: PropTypes.object.isRequired,
+  cardDeleteClick: PropTypes.func.isRequired,
+  itemQtyChange: PropTypes.func.isRequired
+};

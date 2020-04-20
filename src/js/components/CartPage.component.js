@@ -1,6 +1,6 @@
 import React from "react";
 import { connect } from "react-redux";
-
+import PropTypes from "prop-types";
 import Button from "UI/Button.component";
 import ProductCard from "Components/ProductCard.component";
 import { mapStateToProps, getItemCount } from "Helpers/helperFunctions.js";
@@ -119,3 +119,12 @@ class CartPage extends React.Component {
 }
 
 export default connect(mapStateToProps)(CartPage);
+
+CartPage.propTypes = {
+  dispatch: PropTypes.func.isRequired,
+  availableItems: PropTypes.array
+};
+
+CartPage.defaultProps = {
+  availableItems: []
+};

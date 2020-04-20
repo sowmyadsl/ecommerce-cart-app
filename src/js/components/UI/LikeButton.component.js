@@ -20,6 +20,7 @@ export default function LikeButton(props) {
     </div>
   );
 }
+
 LikeButton.propTypes = {
   showBorder: PropTypes.bool
 };

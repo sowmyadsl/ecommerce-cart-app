@@ -1,5 +1,6 @@
 import React from "react";
 import { connect } from "react-redux";
+import PropTypes from "prop-types";
 import MainImage from "./MainImage.component";
 import ProductSummary from "./ProductSummary.component";
 import SizeQtyForm from "./SizeQtyForm.component";
@@ -49,3 +50,13 @@ class ProductDetail extends React.Component {
 }
 
 export default connect(mapStateToProps)(ProductDetail);
+
+ProductDetail.propTypes = {
+  isFetching: PropTypes.bool,
+  productInfo: PropTypes.object
+};
+
+ProductDetail.defaultProps = {
+  isFetching: false,
+  productInfo: {}
+};

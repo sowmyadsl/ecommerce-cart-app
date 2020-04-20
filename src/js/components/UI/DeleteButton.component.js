@@ -20,6 +20,7 @@ export default function DeleteButton(props) {
     </button>
   );
 }
+
 DeleteButton.propTypes = {
   showBorder: PropTypes.bool
 };

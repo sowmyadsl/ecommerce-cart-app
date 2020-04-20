@@ -34,6 +34,7 @@ Button.propTypes = {
   type: PropTypes.string,
   onClick: PropTypes.func
 };
+
 Button.defaultProps = {
   status: "",
   type: "button",
